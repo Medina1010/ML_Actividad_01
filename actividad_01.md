@@ -7,21 +7,28 @@ Los siguientes resultados se realizaron usando el libro [odyssey](odyssey.txt) e
 - texto generado aleatoriamente
 ``` md
 outrg ue eafe
-t unvrniwpibhl
+t u
+nvrniwpibhl
 lgtneioe rueeamhiio.nf aes
-tdrtxUrstiheofhdtswiioawiosbs,ei h
+tdrtxUrstiheofhdtswiioawio
+sb
+s,ei h
  d m fho
 try
 cotitef er e
 n a, eoe y tnMufeuw yi e .tyca 
-nle  agcaie sbkeKoheensn tleduih  nei nbkyatinbadoo oiZids ah 
+nle  agcaie sbkeKoheensn tledui
+h  nei nbkyatinbadoo oiZids ah 
 net   testutlrF a 
 n
 iuptttee eaiaaohddd,ea
-,n oy,dyreusdr.ywrAo oeo u adheodgecoygneehrdtvhn  ttrrvo eJis  hrier  mo  p nle ncseeogsv,t ahttts  vye ogwd 
+,n oy,dyreusdr.ywrAo oeo u adheodgecoygneehrdtvhn  ttrrvo eJis  hrier 
+ mo  p nle ncseeogsv,t ahttts  
+vye ogwd 
  esm h  ndvusf
 tis
-n se.i d  earett  voo moomiami nnu  naerfw.ecaaeheaeg   tnlheo ,neadosaewhsasasho tee ibs se .ion
+n
+ se.i d  earett  voo moomiami nnu  naerfw.ecaaeheaeg   tnlheo ,neadosaewhsasasho tee ibs se .ion
 aisi sa a e rdenosse
 ```
 - histograma
@@ -32,7 +39,7 @@ Se realizo el histograma usando el siguiente [script](histograma.gp) de *gnuplot
 
 Se realizo el grafico de barra de chances con el siguiente [script](barras_apiladas.py) de *python*
 ![barra](grafico_chances.png)
-- [codigo](text_gen).
+- [codigo](text_gen.c).
 ## glosario
 - Histograma de frecuencias: Representación gráfica mediante barras que muestra cuántas veces se repite cada valor o carácter en un conjunto de datos (muy utilizado en criptoanálisis para analizar la aparición de letras en un texto).
 - Cifrado por sustitución: Método de encriptación en el que las unidades de texto plano (como letras o grupos de letras) son reemplazadas sistemáticamente por otras letras, símbolos o números según una regla o clave fija.
