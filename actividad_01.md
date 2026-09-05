@@ -34,4 +34,6 @@ Se realizo el grafico de barra de chances con el siguiente [script](barras_apila
 ![barra](grafico_chances.png)
 - [codigo](text_gen).
 ## glosario
-
+- Histograma de frecuencias: Representación gráfica mediante barras que muestra cuántas veces se repite cada valor o carácter en un conjunto de datos (muy utilizado en criptoanálisis para analizar la aparición de letras en un texto).
+- Cifrado por sustitución: Método de encriptación en el que las unidades de texto plano (como letras o grupos de letras) son reemplazadas sistemáticamente por otras letras, símbolos o números según una regla o clave fija.
+- Retorno de carro y espacio: Caracteres especiales de control de texto; el retorno de carro (\r o CR) mueve el cursor o punto de inserción al inicio de la línea actual, mientras que el espacio ( ) representa un espacio en blanco entre palabras o símbolos.
