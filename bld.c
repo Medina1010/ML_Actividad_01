@@ -17,8 +17,11 @@ int main (int argc, char** argv) {
 	}
 	// ---------
 	cmd("gcc -Wall -Wextra -lm -o text_gen text_gen.c");
+	cmd("./text_gen mensaje_cuartas.txt");
 	cmd("./text_gen odyssey.txt");
 	cmd("gnuplot histograma.gp");
 	cmd("python barras_apiladas.py");
+	cmd("gnuplot histogramacuar.gp");
+	cmd("python barras_apiladascuar.py");
 	return 0;
 }

@@ -9,6 +9,11 @@ typedef struct {
         char values[128][128];
 } table_t;                                              
 
+typedef struct {
+	size_t count, cap;
+	char *data;
+} chars;
+
 void table_append(table_t *tbl, char *key, char *value);
 int table_search(table_t *tbl, char *key);
 void table_define(table_t *tbl, char *key, char *value);
@@ -21,6 +26,14 @@ void formater_file (char *src_path, char *dst_path, table_t *tbl);
 
 #include <string.h>
 #include <stdio.h>
+
+void chars_append(chars* csm, char v) {
+	if (csm->count >= csm->cap) {
+		csm->cap = csm->cap == 0 ? 1 : csm->cap * 2;
+		csm->data = realloc(csm->data, csm->cap);
+	}
+	csm->data[csm->count++] = v;
+}
 
 void table_append(table_t *tbl, char *key, char *value) {
 	strcpy(tbl->keys[tbl->count], key);
@@ -84,11 +97,6 @@ void formater(char *src, char *dst, table_t *tbl) {
 	}
 
 }
-
-typedef struct {
-	size_t count, cap;
-	char *data;
-} chars;
 
 void chars_from_file(chars *str, char *path) {
 	FILE *file = fopen(path, "r");
