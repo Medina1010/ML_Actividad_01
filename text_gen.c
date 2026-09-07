@@ -109,8 +109,8 @@ int main (int argc, char** argv) {
 	// generar estadisticas del mensaje de nuestros compeñeros
 
 	chars mensaje_e_f = {0};
-	//chars_from_file(&mensaje_e_f, "mensaje_cuartas.txt");
-	chars_from_file(&mensaje_e_f, "mensaje_encriptado.txt");
+	chars_from_file(&mensaje_e_f, "mensaje_cuartas.txt");
+	//chars_from_file(&mensaje_e_f, "mensaje_encriptado.txt");
 	char* mensaje_cuartas = mensaje_e_f.data;
 	text_stats tse = get_text_stats_from_str(mensaje_cuartas);
 

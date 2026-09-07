@@ -16,7 +16,7 @@ Se realizo el histograma usando el siguiente [script](histograma.gp) de *gnuplot
 
 Se realizo el grafico de barra de chances con el siguiente [script](barras_apiladas.py) de *python*
 ![barra](grafico_chances.png)
-- [codigo](text_gen.c), el codigo se solapo con el ya hecho en la actividad en clase, se puede ver el codigo original en el commit anterior al actual.
+- [codigo](text_gen.c), el codigo se solapo con el ya hecho en la actividad en clase, se puede ver el codigo original en este [commit](https://github.com/Medina1010/ML_Actividad_01/commit/edf72f37bbc4aeb9bb357003ff8a9a6857eca971).
 
 ## glosario
 - Histograma de frecuencias: Representación gráfica mediante barras que muestra cuántas veces se repite cada valor o carácter en un conjunto de datos (muy utilizado en criptoanálisis para analizar la aparición de letras en un texto).
